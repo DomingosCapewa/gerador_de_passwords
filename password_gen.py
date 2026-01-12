@@ -30,9 +30,9 @@ class PassGen:
         print("Iniciando loop de eventos...")
         while True:
             evento, valores = self.janela.read()
-            if evento == sg.WINDOW_CLOSED or evento == 'Exit':
+            if evento == sg.WINDOW_CLOSED or evento == 'Sair':
                 break
-            if evento == 'Generate Password':
+            if evento == 'Gerar Senha':
                 site_name = valores['site_name']
                 username = valores['username']
                 length = int(valores['length'])
