@@ -2,6 +2,8 @@
 
 Um gerador de senhas seguras com interface gráfica desenvolvido em Python usando FreeSimpleGUI.
 
+![alt text](image.png)
+
 ## Descrição
 
 Este programa permite gerar senhas aleatórias e seguras com opções personalizáveis de comprimento e tipos de caracteres. Todas as senhas geradas podem ser automaticamente salvas em um arquivo local para referência futura.
